@@ -1,0 +1,78 @@
+package com.app.server.constants.path;
+
+public class MissionPath {
+    /**
+     * Nhiệm vụ
+     */
+    public static final String FILTER_MISSION_GROUP = "/mission/filter_mission_group";
+    public static final String CREATE_MISSION_GROUP = "/mission/create_mission_group";
+    public static final String EDIT_MISSION_GROUP = "/mission/edit_mission_group";
+    public static final String ADD_MISSION_TO_GROUP = "/mission/add_mission_to_group";
+    public static final String GET_MISSION_GROUP_INFO = "/mission/get_mission_group_info";
+    public static final String FILTER_MISSION_BY_AGENCY = "/mission/filter_mission_by_agency";
+    public static final String FILTER_MISSION_BY_GROUP = "/mission/filter_mission_by_group";
+    public static final String FILTER_MISSION_BXH = "/mission/filter_mission_bxh";
+    public static final String GET_MISSION_BXH_INFO = "/mission/get_mission_bxh_info";
+    public static final String CREATE_MISSION_BXH = "/mission/create_mission_bxh";
+    public static final String EDIT_MISSION_BXH = "/mission/edit_mission_bxh";
+    public static final String ACTIVE_MISSION_BXH = "/mission/active_mission_bxh";
+    public static final String CANCEL_MISSION_BXH = "/mission/cancel_mission_bxh";
+    public static final String DOUBLE_CHECK_MISSION_BXH = "/mission/double_check_mission_bxh";
+    public static final String FILTER_TRANSACTION_MISSION_BXH_BY_AGENCY = "/mission/filter_transaction_mission_bxh_by_agency";
+    public static final String FILTER_MISSION_BXH_HISTORY = "/mission/filter_mission_bxh_history";
+    public static final String DELETE_MISSION_BXH = "/mission/delete_mission_bxh";
+    public static final String CANCEL_MISSION = "/mission/cancel_mission";
+    public static final String CREATE_MISSION_SETTING = "/mission/create_mission_setting";
+    public static final String EDIT_MISSION_SETTING = "/mission/edit_mission_setting";
+    public static final String ACTIVE_MISSION_SETTING = "/mission/active_mission_setting";
+    public static final String STOP_MISSION_SETTING = "/mission/stop_mission_setting";
+    public static final String CANCEL_MISSION_SETTING = "/mission/cancel_mission_setting";
+    public static final String DELETE_MISSION_SETTING = "/mission/delete_mission_setting";
+    public static final String GET_MISSION_SETTING_INFO = "/mission/get_mission_setting_info";
+    public static final String GET_MISSION_BXH_HISTORY_INFO = "/mission/get_mission_bxh_history_info";
+    public static final String SEARCH_MISSION = "/mission/search_mission";
+    public static final String SEARCH_MISSION_GROUP = "/mission/search_mission_group";
+    public static final String FILTER_TK_MISSION_AGENCY = "/mission/filter_tk_mission_agency";
+    public static final String FILTER_TK_MISSION = "/mission/filter_tk_mission";
+    public static final String FILTER_TK_MISSION_TRANSACTION = "/mission/filter_tk_mission_transaction";
+    public static final String GET_MISSION_AGENCY_INFO = "/mission/get_agency_mission_info";
+    public static final String EDIT_MISSION = "/mission/edit_mission";
+    public static final String GET_MISSION_CONFIG = "/mission/get_mission_config";
+    public static final String UPDATE_MISSION_CONFIG = "/mission/update_mission_config";
+    public static final String DOUBLE_CHECK_MISSION_SETTING = "/mission/double_check_mission_setting";
+    public static final String FILTER_MISSION_TUAN_BY_AGENCY = "/mission/filter_mission_tuan_by_agency";
+    public static final String FILTER_MISSION_THANG_BY_AGENCY = "/mission/filter_mission_thang_by_agency";
+    public static final String FILTER_MISSION_QUY_BY_AGENCY = "/mission/filter_mission_quy_by_agency";
+    public static final String FILTER_MISSION_REPLACE_BY_AGENCY = "/mission/filter_mission_replace_by_agency";
+    public static final String GET_MISSION_INFO = "/mission/get_mission_info";
+    public static final String MODIFY_AGENCY_MISSION_POINT = "/mission/modify_agency_mission_point";
+    public static final String FILTER_TK_MISSION_BXH_AGENCY = "/mission/filter_tk_mission_bxh_agency";
+    public static final String GET_RESULT_MISSION_BXH_INFO = "/mission/get_result_mission_bxh_info";
+    public static final String GET_MISSION_LIMIT_OFFER_INFO = "/mission/get_mission_limit_offer_info";
+    public static final String FILTER_AGENCY_MISSION_HISTORY = "/mission/filter_agency_mission_history";
+    public static final String FILTER_MISSION_SETTING = "/mission/filter_mission_setting";
+    public static final String GENERATE_MISSION_MIN = "/mission/generate_mission_min";
+    public static final String GENERATE_MISSION_MAX = "/mission/generate_mission_max";
+    public static final String RESET_MISSION_POINT = "/mission/reset_mission_point";
+    public static final String REWARD_MISSION = "/mission/reward_mission";
+    public static final String PUSH_NOTIFY_CLAIM = "/mission/push_notify_claim";
+    public static final String GENERATE_MISSION_BY_SETTING = "/mission/generate_mission_by_setting";
+    public static final String ACTIVE_MISSION_GROUP = "/mission/active_mission_group";
+    public static final String STOP_MISSION_GROUP = "/mission/stop_mission_group";
+    public static final String DOUBLE_CHECK_MISSION_GROUP = "/mission/double_check_mission_group";
+    public static final String GET_MISSION_END_TIME = "/mission/get_mission_end_time";
+    public static final String FILTER_AGENCY_MISSION_HISTORY_OF_AGENCY = "/mission/filter_agency_mission_history_of_agency";
+    public static final String GET_RESULT_MISSION_BXH_INFO_OF_AGENCY = "/mission/get_result_mission_bxh_info_of_agency";
+    public static final String RESET_MISSION_BXH = "/mission/reset_mission_bxh";
+    public static final String FILTER_MISSION_BXH_REWARD_HISTORY = "/mission/filter_mission_bxh_reward_history";
+    public static final String FILTER_AGENCY_MISSION_POINT_HISTORY = "/mission/filter_agency_mission_point_history";
+    public static final String FILTER_AGENCY_MISSION_ACHIEVEMENT_HISTORY = "/mission/filter_agency_mission_achievement_history";
+    public static final String FILTER_AGENCY_MISSION_ACHIEVEMENT_HISTORY_OF_AGENCY = "/mission/filter_agency_mission_achievement_history_of_agency";
+    public static final String RESET_MISSION = "/mission/reset_mission";
+    public static final String GET_ORDER_INFO = "/mission/get_order_info";
+    public static final String FILTER_MISSION_BXH_REWARD_HISTORY_OF_AGENCY = "/mission/filter_mission_bxh_reward_history_of_agency";
+    public static final String REJECT_ACCUMULATE_ORDER = "/mission/reject_accumulate_order";
+    public static final String ACCEPT_ACCUMULATE_ORDER = "/mission/accept_accumulate_order";
+    public static final String ACCEPT_ACCUMULATE_CKS = "/mission/accept_accumulate_cks";
+    public static final String ON_OFF_REPEAT_MISSION_BXH = "/mission/on_off_repeat_mission_bxh";
+}

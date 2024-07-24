@@ -1,0 +1,31 @@
+server:
+  port: 1001
+logging:
+  file: logs/logger.log
+  level:
+    root: INFO
+    org:
+      hibernate: WARN
+  io:
+    swagger:
+      models:
+        parameters:
+          AbstractSerializableParameter: OFF
+spring:
+  jackson:
+    time-zone: Asia/Ho_Chi_Minh
+    FAIL_ON_EMPTY_BEANS: false
+  mvc:
+    static-path-pattern: /**
+  data:
+    redis:
+      repositories:
+        enabled: false
+  servlet:
+    multipart:
+      max-file-size: 15MB
+      max-request-size: 15MB
+  jpa:
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true

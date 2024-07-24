@@ -1,0 +1,15 @@
+**/target/*
+**/template/*
+*.class
+Logs/
+/Logs
+*.classpath
+*.settings
+*.project
+CODE/CmsServer/.idea
+CODE/CmsServer/javaConsole
+*.ini
+*.iml
+*.log
+**/PATCH/*
+.idea/
